@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 const connectDB = async () => {
   try {
-    const connUri = process.env.MONGO_URI || process.env.MONGO_URL;
+    const connUri = process.env.MONGO_URL || process.env.MONGO_URL;
     if (!connUri) {
       console.log('MongoDB connection string not found in .env. Skipping database connection for now.');
       return;

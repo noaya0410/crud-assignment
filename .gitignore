@@ -1,0 +1,9 @@
+# Dependencies (installed via npm)
+node_modules/
+
+# Environment variables & secrets (database connection strings, API keys)
+.env
+
+# Operating system / IDE files
+.DS_Store
+Thumbs.db
